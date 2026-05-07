@@ -1,0 +1,52 @@
+{
+  "name": "gencreator-studio",
+  "version": "0.1.0-alpha.0",
+  "private": true,
+  "description": "Vercel template that turns a Creator Intelligence System (CIS) instance into a living studio. One-click deploy your own.",
+  "license": "MIT",
+  "author": "Frank Riemer <https://frankx.ai>",
+  "homepage": "https://github.com/frankxai/GenCreator-Studio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankxai/GenCreator-Studio.git"
+  },
+  "bugs": "https://github.com/frankxai/GenCreator-Studio/issues",
+  "keywords": [
+    "creator-economy",
+    "content-studio",
+    "vercel-template",
+    "nextjs",
+    "ai-agents",
+    "creator-intelligence-system"
+  ],
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "ai": "^4.0.0",
+    "next": "^16.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.1.6",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.3"
+  }
+}
