@@ -9,14 +9,14 @@
 
 ## What it is
 
-GenCreator Studio is a Next.js 16 + Tailwind + Vercel AI SDK template. It is the reference amplifier for CIS — the visible surface a creator interacts with day-to-day. The protocol lives in [creator-intelligence-system](https://github.com/frankxai/creator-intelligence-system); the Studio is what makes it tangible.
+GenCreator Studio is a Next.js 16 + Tailwind template. It is the reference gallery, distributor, and attestation surface for CIS — the public face a creator can deploy while authoring remains in Claude Code, Claude Projects, ChatGPT Projects/GPTs, Cursor, or another agent workspace they already use. The protocol lives in [creator-intelligence-system](https://github.com/frankxai/creator-intelligence-system); the Studio is what makes it tangible.
 
 ```
 ┌────────────────────────────────────────────────────┐
 │  GenCreator Studio  (this repo)                    │
 │  ┌──────────────────────────────────────────────┐  │
-│  │  Capture · Calendar · Formats · Agents       │  │
-│  │  Produce · Distribute · Learn                │  │
+│  │  Gallery · Calendar · Formats · Review       │  │
+│  │  Distribute · Attest · Learn                 │  │
 │  └──────────────────────────────────────────────┘  │
 └────────────────────────────────────────────────────┘
                        │
@@ -42,9 +42,9 @@ GenCreator Studio is a Next.js 16 + Tailwind + Vercel AI SDK template. It is the
 ## What you get
 
 - **One-click Vercel deploy** with sensible defaults
-- **Studio dashboard** — Capture, Calendar, Formats, Agents, Produce, Distribute, Learn
+- **Studio dashboard** — Gallery, Calendar, Formats, Review, Distribute, Attest, Learn
 - **CIS-typed everywhere** — every artifact conforms to the [CIP v0.1 protocol](https://github.com/frankxai/creator-intelligence-system/blob/main/SPEC.md)
-- **Voice-first capture** (optional — Claude / ChatGPT / CC native dictation works too)
+- **Subscription-first authoring** — produce inside Claude Code, Claude Projects, ChatGPT, Cursor, or another creator-owned agent tool
 - **Attestation rendered** on every published piece (the moat)
 - **Multi-channel distribution** — Bluesky, LinkedIn, Beehiiv (MV1) → 8+ channels (MV2)
 - **Brand voice config** — single source via `@cis/voice`, banned-phrase + quarantine audit
@@ -64,7 +64,7 @@ pnpm install
 
 # 3. Configure
 cp .env.example .env.local
-# Edit .env.local — minimum viable: ANTHROPIC_API_KEY
+# Edit .env.local only when you add distribution channels or optional automation
 
 # 4. Run
 pnpm dev
@@ -76,12 +76,12 @@ Then open `http://localhost:3000`.
 
 ## Configuration
 
-GenCreator Studio reads from environment variables. See [`.env.example`](./.env.example).
+GenCreator Studio runs without a server-side LLM key. Environment variables add distribution channels, palace location, and optional hosted automation. See [`.env.example`](./.env.example).
 
 | Variable | Required | Description |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | yes | Server-side LLM calls. Pay-per-token billing — Claude Max cannot power server apps |
-| `AI_GATEWAY_TOKEN` | optional | Vercel AI Gateway for multi-provider routing + caching |
+| `AI_GATEWAY_TOKEN` | optional | Vercel AI Gateway for optional hosted automation or `vercel-labs/ai-cli` workflows |
+| `ANTHROPIC_API_KEY` | optional | Only for hosted server-side LLM automation. Not needed for subscription-first Claude Code/Project authoring |
 | `BLUESKY_HANDLE` | for distribution | App password from bsky.app — free, no API key |
 | `BLUESKY_APP_PASSWORD` | for distribution | Generate at bsky.app/settings/app-passwords |
 | `LINKEDIN_ACCESS_TOKEN` | for distribution | OAuth 2.0 token (60-day) — see DEPLOY.md |
@@ -99,7 +99,7 @@ See [DEPLOY.md](./DEPLOY.md) for:
 - Custom domain setup
 - LinkedIn OAuth setup
 - Bluesky app password setup
-- Cost estimation (API + Vercel)
+- Cost estimation (Vercel + optional API automation)
 
 ---
 
@@ -127,9 +127,10 @@ The studio loads `myVoice` at startup and audits every L4 production output agai
 
 ## What's NOT in this template
 
-- **Voice capture is optional.** Not the moat. If you prefer to dictate via Claude Code or ChatGPT and paste briefs in, you can.
+- **The Studio is not the authoring engine by default.** It displays, distributes, and verifies artifacts produced in the creator's own agent workspace.
+- **Voice capture is optional.** Not the moat. If you prefer to dictate via Claude Code or ChatGPT and import briefs, you can.
 - **No SaaS infra.** This is a deployable template, not a managed service. You run it.
-- **No AI provider lock-in.** Vercel AI SDK abstracts the model layer — swap providers without touching app code.
+- **No AI provider lock-in.** Optional automation can use Vercel AI Gateway, provider SDKs, or terminal tools like `vercel-labs/ai-cli`; the default path needs none of them.
 - **No auth out of the box.** Add `next-auth` or Clerk if you need multi-user. By default, the Studio is a single-creator surface.
 
 ---

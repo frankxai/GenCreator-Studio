@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Studio',
-  description: 'The capture surface. Hold to record, release to ship.',
+  description: 'The gallery, distributor, and attestation surface.',
   robots: { index: false, follow: false },
 }
 
@@ -11,10 +11,10 @@ export default function StudioPage() {
     <main className="mx-auto flex min-h-screen w-full max-w-4xl flex-col gap-12 px-6 py-20">
       <header className="flex flex-col gap-2">
         <span className="text-xs uppercase tracking-[0.18em] text-ink-subtle">Studio · v0.1.0-alpha</span>
-        <h1 className="font-display text-3xl font-semibold text-ink md:text-4xl">Capture surface</h1>
+        <h1 className="font-display text-3xl font-semibold text-ink md:text-4xl">Studio surface</h1>
         <p className="max-w-2xl text-sm text-ink-muted md:text-base">
-          The single dashboard surface that wires your captures into the CIS production chain.
-          MV1 ships the mic and the calendar. MV2 ships formats, agents, distribute, and learn.
+          The single dashboard surface for reviewing CIP bundles, distributing finished work,
+          and exposing verifiable attestations. Authoring stays in the agent workspace you already use.
         </p>
       </header>
 

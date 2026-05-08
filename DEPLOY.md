@@ -8,7 +8,7 @@
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/frankxai/GenCreator-Studio)
 
-This forks the repo into your GitHub, creates a Vercel project, and prompts you for environment variables. Set `ANTHROPIC_API_KEY` at minimum and you can deploy. Other env vars unlock distribution channels.
+This forks the repo into your GitHub and creates a Vercel project. No server-side LLM key is required for the default subscription-first flow. Environment variables unlock distribution channels and optional hosted automation.
 
 ---
 
@@ -36,27 +36,28 @@ pnpm dlx vercel --prod
 
 ---
 
-## Required env vars
+## Environment variables
 
-The Studio runs with one variable. Distribution channels are progressive enhancement.
+The Studio deploys with zero required secrets. Distribution channels and hosted automation are progressive enhancement.
 
 ### Minimum
 
 ```
-ANTHROPIC_API_KEY=sk-ant-...
+# none
 ```
 
-Get it at [platform.anthropic.com](https://platform.anthropic.com). Pay-per-token billing.
+Author in Claude Code, Claude Projects, ChatGPT Projects/GPTs, Cursor, or another creator-owned agent workspace. Import the resulting CIP bundles into the Studio for review, distribution, and attestation.
 
-> **Important:** Claude Pro / Max subscriptions ($20-200/mo) cannot bill server-side API calls. Anthropic clarified this in April 2026. Server apps need their own API key billed separately at API rates (Sonnet 4.6: ~$3/MTok input, $15/MTok output).
-
-### Recommended
+### Optional hosted automation
 
 ```
 AI_GATEWAY_TOKEN=...
+ANTHROPIC_API_KEY=sk-ant-...
 ```
 
-Vercel AI Gateway — adds caching, observability, multi-provider fallback. Free tier covers most personal use; configure at [vercel.com/dashboard/ai/gateway](https://vercel.com/dashboard/ai/gateway).
+Use these only if you want the deployed app to run server-side model calls. Vercel AI Gateway adds caching, observability, and multi-provider fallback; configure it at [vercel.com/dashboard/ai/gateway](https://vercel.com/dashboard/ai/gateway). Anthropic API keys are pay-per-token.
+
+Claude Pro/Max subscriptions do not bill server-side API calls. They work for Claude Code and Claude Projects, which is the default CIS authoring path.
 
 ---
 
@@ -136,14 +137,14 @@ For a single-creator Studio publishing 5 posts per week:
 | Item | Estimate |
 |---|---|
 | Vercel Hobby (free) or Pro | $0 / $20/mo |
-| Anthropic API (Sonnet 4.6) | ~$5-15/mo at this volume |
-| Vercel AI Gateway | Free tier sufficient |
+| Server-side model API | $0 by default; optional if hosted automation is enabled |
+| Vercel AI Gateway | $0 by default; free tier usually sufficient if enabled |
 | Bluesky | Free |
 | LinkedIn API | Free (within 100 calls/day) |
 | Beehiiv | $99/mo (Scale plan, only if newsletter is active) |
 | Domain | ~$15/yr |
 
-**Single-creator total:** $5-35/mo (without newsletter), $100-135/mo (with newsletter).
+**Single-creator total:** $0-20/mo before newsletter/API automation, $100-120/mo with Beehiiv Scale.
 
 These are direct costs only. Your time and your audience attention are the real costs.
 
@@ -171,9 +172,9 @@ Each L5 distribution adapter respects per-channel rate limits. The conductor ref
 
 ## Troubleshooting
 
-### "ANTHROPIC_API_KEY not configured" 502
+### Hosted automation returns "ANTHROPIC_API_KEY not configured"
 
-Set the key in Vercel project env vars (Production + Preview). Redeploy.
+Only the optional hosted automation path needs this key. Either set it in Vercel project env vars and redeploy, or keep authoring inside Claude Code/Claude Project/ChatGPT and import the generated CIP bundle.
 
 ### Bluesky publish returns 401
 
@@ -191,12 +192,11 @@ This template references `@cis/core` and `@cis/voice` from npm. While CIS is in 
 
 ## Production checklist
 
-- [ ] `ANTHROPIC_API_KEY` set in Vercel
 - [ ] Custom domain configured + DNS verified
 - [ ] At least one distribution channel wired and tested
 - [ ] Voice profile loaded (`CIS_VOICE_PROFILE` or `lib/voice.ts`)
 - [ ] Backup configured for `.palace/`
-- [ ] First test publish completed end-to-end (capture → brief → produce → distribute → attest)
+- [ ] First test publish completed end-to-end (agent workspace → CIP bundle → distribute → attest)
 - [ ] Attestation `.well-known` endpoint resolves on the custom domain
 - [ ] First publication's attestation verifies via `@cis/verify`
 

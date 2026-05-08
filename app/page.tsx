@@ -26,8 +26,8 @@ export default function HomePage() {
         />
         <Card
           step="02"
-          title="Produce"
-          body="Multi-agent chain runs the brief through brand-voice audit, model orchestration, and asset rendering."
+          title="Author"
+          body="Use Claude Code, ChatGPT, Cursor, or another agent workspace you already pay for. Import the CIP bundle."
         />
         <Card
           step="03"
@@ -77,7 +77,7 @@ export default function HomePage() {
       <section className="grid grid-cols-1 gap-4 text-sm text-ink-muted md:grid-cols-2">
         <Bullet
           title="Voice-first capture (optional)"
-          body="Hold to record, or rely on Claude Code / ChatGPT native dictation. The mic is convenience, not the moat."
+          body="Capture in the browser, or rely on Claude Code / ChatGPT native dictation. The mic is convenience, not the moat."
         />
         <Bullet
           title="Brand voice as a single source"
@@ -85,7 +85,7 @@ export default function HomePage() {
         />
         <Bullet
           title="Multi-channel distribution"
-          body="Bluesky (free), LinkedIn, Beehiiv, Farcaster Frames, YouTube, X, Threads, IG, TikTok — adapter pattern."
+          body="Bluesky, LinkedIn, Beehiiv, Farcaster Frames, YouTube, X, Threads, IG, TikTok — adapter pattern."
         />
         <Bullet
           title="Cryptographic attestation"
