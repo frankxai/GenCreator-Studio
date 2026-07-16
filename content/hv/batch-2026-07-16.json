@@ -1,0 +1,459 @@
+{
+  "id": "batch-2026-07-16-gencreator-hv",
+  "title": "GenCreator HV Batch — Personal AI CoE",
+  "brand": "GenCreator",
+  "createdAt": "2026-07-16",
+  "theme": "Personal AI CoE / agents that ship / Harmonic Virality inside Studio",
+  "formFamily": "short",
+  "hermesSkill": "harmonic-virality-shortform",
+  "sessionNotes": [
+    "Multi-post /hv batch for GenCreator Studio workbench",
+    "All posts form=short, 45s target, platforms TT+IG+YT",
+    "Edit stack mixed Descript + CapCut; MCP optional",
+    "No auto-publish — human gate on pack stage",
+    "Walk stages together in /hv UI"
+  ],
+  "posts": [
+    {
+      "id": "gc-hv-01",
+      "slug": "stop-renting-thinking",
+      "title": "Stop renting your thinking",
+      "brand": "GenCreator",
+      "form": "short",
+      "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+      "durationSec": 45,
+      "outcome": "authority",
+      "seed": "GenCreator Personal AI CoE for creators — ship systems not vibes",
+      "primaryIdea": "Creators who rent AI chat lose the compound asset — own a CoE instead",
+      "chargeOverall": 9,
+      "stageStatus": {
+        "ideas": "done",
+        "script": "done",
+        "hooks": "done",
+        "format": "done",
+        "template": "done",
+        "actualize": "done",
+        "edit": "done",
+        "post": "done"
+      },
+      "ideas": [
+        {"title": "Stop renting your thinking from chat apps", "charge": 9, "clarity": 9, "pain": 9, "share": 8, "proof": 8, "selected": true},
+        {"title": "ChatGPT tabs are not a studio", "charge": 8, "clarity": 8, "pain": 8, "share": 7, "proof": 7},
+        {"title": "Agents that ship vs agents that chat", "charge": 8, "clarity": 8, "pain": 8, "share": 8, "proof": 7},
+        {"title": "Build once, run daily — OS not apps", "charge": 8, "clarity": 7, "pain": 7, "share": 7, "proof": 7},
+        {"title": "Your prompts are a business asset", "charge": 8, "clarity": 8, "pain": 7, "share": 8, "proof": 7}
+      ],
+      "spine": {
+        "claim": "If your AI lives only in rented chat tabs, you are building on sand.",
+        "stakes": "Every model swap and UI change wipes your edge. Competitors compound systems.",
+        "proof": "Fortune-grade CoE work is boring infrastructure — memory, skills, gates — not prettier chat.",
+        "mechanism": [
+          "Capture: one vault for ideas, prompts, proofs",
+          "Operate: skills + agents with done-conditions",
+          "Govern: human gates on publish, spend, brand"
+        ],
+        "turn": "GenCreator is not another tool — it is how you own the intelligence layer.",
+        "cta": "Comment COE if you want the 6-pillar map."
+      },
+      "spokenScript": "Stop renting your thinking. If your whole AI stack is three chat tabs and a folder of screenshots, you do not have a system — you have a habit. Enterprises run Centers of Excellence: memory, skills, evaluation, gates. Creators can run the same pattern without a corporate budget. Capture everything that compounds. Operate with agents that finish work. Govern what ships under your name. That is a Personal AI CoE. GenCreator is the operating system for that. Comment COE and I will send the 6-pillar map.",
+      "wordCount": 102,
+      "hooks": [
+        {"text": "Stop renting your thinking.", "stop": 9, "promise": 8, "specificity": 8, "charge": 9, "winner": true},
+        {"text": "Chat tabs are not a studio.", "stop": 8, "promise": 8, "specificity": 8, "charge": 8, "alt": true},
+        {"text": "Your AI edge is dying every product update.", "stop": 8, "promise": 8, "specificity": 7, "charge": 8},
+        {"text": "If you only chat, you never compound.", "stop": 7, "promise": 8, "specificity": 7, "charge": 8},
+        {"text": "Fortune 500 CoE — builder edition.", "stop": 7, "promise": 7, "specificity": 7, "charge": 7}
+      ],
+      "formatCode": "TH",
+      "formatNotes": "Talking head + big captions. Cut every phrase. Safe zones top 12% bottom 20%.",
+      "visualBeats": [
+        {"t": "0-1s", "visual": "Face punch-in", "onScreen": "Stop renting your thinking"},
+        {"t": "1-8s", "visual": "Hold face, subtle zoom", "onScreen": "Chat tabs ≠ studio"},
+        {"t": "8-20s", "visual": "B-roll: messy tabs → clean vault", "onScreen": "Capture · Operate · Govern"},
+        {"t": "20-35s", "visual": "Screen flash of skill/board", "onScreen": "Personal AI CoE"},
+        {"t": "35-45s", "visual": "Face calm CTA", "onScreen": "Comment COE"}
+      ],
+      "templateName": "Contrarian Claim",
+      "templateFill": "Stop renting AI chat. Do own a Personal AI CoE. CTA: comment COE.",
+      "record": {
+        "framing": "9:16, eyes ~1/3 from top, leave caption room",
+        "lighting": "Soft key on face + gentle fill; dark void background, one emerald accent LED",
+        "audio": "Phone lav or close phone mic; quiet room",
+        "takes": ["Hook A x3", "Hook B x2", "Body full x2", "CTA x2", "2s silent hold for cover"],
+        "broll": ["Browser tab chaos screen record", "Vault tidy scroll", "Skill list flash"],
+        "wardrobe": "Clean dark tee; no busy logos",
+        "teleprompter": "Large font; energy over perfect reading",
+        "energyNote": "Slight anger at waste, then calm authority — feel the charge before roll"
+      },
+      "edit": {
+        "primaryStack": "mixed",
+        "steps": [
+          "Descript: import A-roll, strip fillers, shorten gaps, export SRT + clean master",
+          "CapCut 9:16: auto captions big high-contrast 2-4 words/line",
+          "Hook text 0-1.5s matching winner",
+          "Zoom punch on COE / Capture / Operate / Govern",
+          "B-roll over tab chaos line",
+          "Export 1080x1920 30fps high bitrate"
+        ],
+        "export": "1080x1920 @ 30fps",
+        "mcp": ["create_draft 1080x1920", "add_video main", "add_subtitle SRT", "add_text hook 0-2s", "add_text CTA end", "save_draft"],
+        "qualityGates": ["Frame 0 stops scroll", "Mute-safe captions", "One CTA", "Soul line intact"]
+      },
+      "pack": {
+        "coverText": "Stop renting thinking",
+        "captionPrimary": "Stop renting your thinking from chat apps. Build a Personal AI CoE — capture, operate, govern. GenCreator is the OS for AI-native creators.",
+        "captionAlts": ["Chat tabs are not a studio. Systems compound. Tabs reset.", "Enterprise CoE patterns, creator edition. Comment COE."],
+        "hashtags": ["#GenCreator", "#AICreators", "#PersonalAICOE", "#CreatorOS", "#Agentic"],
+        "firstComment": "Reply COE for the 6-pillar map (no spam wall).",
+        "tiktok": "Native upload, cover @0s on face + text",
+        "ig": "First line = keyword Personal AI CoE",
+        "yt": "Title: Stop Renting Your Thinking | Personal AI CoE",
+        "humanGate": "Do not auto-post. Frank reviews before live."
+      },
+      "tools": [
+        {"id": "hermes-hv", "label": "Hermes /hv skill", "note": "harmonic-virality-shortform", "kind": "hermes"},
+        {"id": "descript", "label": "Descript", "href": "https://www.descript.com/", "note": "Text-first A-roll cleanup", "kind": "edit"},
+        {"id": "capcut", "label": "CapCut", "href": "https://www.capcut.com/", "note": "9:16 polish + captions", "kind": "edit"},
+        {"id": "capcut-mcp", "label": "CapCut MCP", "note": "VectCutAPI draft tools", "kind": "edit"}
+      ],
+      "artifacts": [
+        {"name": "brief.md", "path": "content/hv/artifacts/stop-renting-thinking/brief.md"},
+        {"name": "script.md", "path": "content/hv/artifacts/stop-renting-thinking/script.md"},
+        {"name": "shot-list.md", "path": "content/hv/artifacts/stop-renting-thinking/shot-list.md"},
+        {"name": "edit-plan.md", "path": "content/hv/artifacts/stop-renting-thinking/edit-plan.md"},
+        {"name": "pack.md", "path": "content/hv/artifacts/stop-renting-thinking/pack.md"}
+      ],
+      "score": {"charge": 9, "hookStop": 9, "argument": 9, "emotion": 8, "retention": 8, "stepps": 8, "platform": 9, "cta": 9, "average": 8.62, "recommendation": "SHIP_CANDIDATE"}
+    },
+    {
+      "id": "gc-hv-02",
+      "slug": "six-pillars-45s",
+      "title": "6 pillars in 45 seconds",
+      "brand": "GenCreator",
+      "form": "short",
+      "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+      "durationSec": 45,
+      "outcome": "authority",
+      "seed": "GenCreator Personal AI CoE for creators — ship systems not vibes",
+      "primaryIdea": "Name the 6-pillar CoE so creators can audit their stack in one breath",
+      "chargeOverall": 8,
+      "stageStatus": {"ideas": "done", "script": "done", "hooks": "done", "format": "done", "template": "done", "actualize": "done", "edit": "done", "post": "done"},
+      "ideas": [
+        {"title": "6 pillars in 45 seconds", "charge": 8, "clarity": 9, "pain": 7, "share": 8, "proof": 8, "selected": true},
+        {"title": "Which pillar is your bottleneck", "charge": 8, "clarity": 8, "pain": 8, "share": 8, "proof": 7},
+        {"title": "Tech without governance is cosplay", "charge": 8, "clarity": 8, "pain": 8, "share": 7, "proof": 7}
+      ],
+      "spine": {
+        "claim": "A Personal AI CoE has six pillars — miss one and the system leaks.",
+        "stakes": "Creators buy tools and still drown because pillars are unbalanced.",
+        "proof": "Every stuck creator audit misses data, governance, or craft loop.",
+        "mechanism": ["Technology + Data", "Process + People (you + agents)", "Governance + Continuous improvement"],
+        "turn": "You do not need more apps. You need the missing pillar.",
+        "cta": "Comment which pillar is weakest."
+      },
+      "spokenScript": "Six pillars. Forty-five seconds. Audit yourself. Technology — models, agents, stack. Data — your vault, prompts, proofs, metrics. Process — how work moves from idea to shipped. People — you, collaborators, and agents with roles. Governance — what is allowed to publish, spend, and speak as you. Continuous improvement — evals, retros, kill lists. If one pillar is missing, the whole CoE wobbles. You do not need another subscription. You need the pillar you have been skipping. Comment the weakest one.",
+      "wordCount": 98,
+      "hooks": [
+        {"text": "Six pillars. Forty-five seconds. Audit yourself.", "stop": 9, "promise": 9, "specificity": 9, "charge": 8, "winner": true},
+        {"text": "Your AI stack is leaking from one missing pillar.", "stop": 8, "promise": 8, "specificity": 8, "charge": 8, "alt": true},
+        {"text": "Stop buying tools. Find the weak pillar.", "stop": 8, "promise": 8, "specificity": 7, "charge": 8},
+        {"text": "Tech without governance is cosplay.", "stop": 8, "promise": 7, "specificity": 8, "charge": 8},
+        {"text": "Name all six or you are guessing.", "stop": 7, "promise": 7, "specificity": 7, "charge": 7}
+      ],
+      "formatCode": "MM",
+      "formatNotes": "Multi-clip: face + six card pops for each pillar name.",
+      "visualBeats": [
+        {"t": "0-2s", "visual": "Face", "onScreen": "6 pillars · 45s"},
+        {"t": "2-8s", "visual": "Card Tech/Data", "onScreen": "Tech · Data"},
+        {"t": "8-16s", "visual": "Card Process/People", "onScreen": "Process · People"},
+        {"t": "16-28s", "visual": "Card Govern/Improve", "onScreen": "Govern · Improve"},
+        {"t": "28-45s", "visual": "Face CTA", "onScreen": "Weakest pillar?"}
+      ],
+      "templateName": "Open Loop List",
+      "templateFill": "6 pillars; payoff = missing pillar; CTA comment weakest.",
+      "record": {
+        "framing": "9:16 center face; cutaways to pillar cards",
+        "lighting": "Even face light; cards emerald on black",
+        "audio": "Close mic",
+        "takes": ["Hook x3", "Full pillar run x2", "CTA x2"],
+        "broll": ["Six text cards on phone", "Hands flipping cards"],
+        "wardrobe": "Dark solid",
+        "teleprompter": "Pillars as punchy nouns",
+        "energyNote": "Rhythmic metronome — teach then challenge"
+      },
+      "edit": {
+        "primaryStack": "capcut",
+        "steps": ["Drop face run", "Insert pillar card overlays", "Big captions", "Beat zoom each pillar", "Export 1080x1920"],
+        "export": "1080x1920 @ 30fps",
+        "qualityGates": ["All 6 pillars readable mute", "One CTA", "Visual change <3s"]
+      },
+      "pack": {
+        "coverText": "6 pillars · 45s",
+        "captionPrimary": "Personal AI CoE = 6 pillars. Miss one and the system leaks. Tech · Data · Process · People · Governance · Improvement. Which is weakest?",
+        "captionAlts": ["Audit your creator AI stack in 45 seconds.", "Governance is a pillar, not a vibe."],
+        "hashtags": ["#GenCreator", "#AICOE", "#CreatorOps", "#AgenticOS"],
+        "firstComment": "Drop your weakest pillar.",
+        "tiktok": "On-screen list; pin first comment",
+        "ig": "Carousel companion optional later",
+        "yt": "Title: 6 Pillars of a Personal AI CoE (45s)",
+        "humanGate": "Human post only"
+      },
+      "tools": [
+        {"id": "hermes-hv", "label": "Hermes /hv skill", "note": "harmonic-virality-shortform", "kind": "hermes"},
+        {"id": "capcut", "label": "CapCut", "href": "https://www.capcut.com/", "note": "Primary edit path", "kind": "edit"}
+      ],
+      "artifacts": [
+        {"name": "script.md", "path": "content/hv/artifacts/six-pillars-45s/script.md"},
+        {"name": "pack.md", "path": "content/hv/artifacts/six-pillars-45s/pack.md"}
+      ],
+      "score": {"charge": 8, "hookStop": 9, "argument": 9, "emotion": 7, "retention": 9, "stepps": 8, "platform": 9, "cta": 9, "average": 8.5, "recommendation": "SHIP_CANDIDATE"}
+    },
+    {
+      "id": "gc-hv-03",
+      "slug": "agents-that-ship",
+      "title": "Agents that ship vs chat",
+      "brand": "GenCreator",
+      "form": "short",
+      "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+      "durationSec": 45,
+      "outcome": "authority",
+      "seed": "GenCreator Personal AI CoE for creators — ship systems not vibes",
+      "primaryIdea": "Done-conditions separate toy agents from production agents",
+      "chargeOverall": 9,
+      "stageStatus": {"ideas": "done", "script": "done", "hooks": "done", "format": "done", "template": "done", "actualize": "done", "edit": "done", "post": "done"},
+      "ideas": [
+        {"title": "Agents that ship vs agents that chat", "charge": 9, "clarity": 9, "pain": 9, "share": 9, "proof": 8, "selected": true},
+        {"title": "No done-condition = infinite theater", "charge": 8, "clarity": 8, "pain": 8, "share": 8, "proof": 8}
+      ],
+      "spine": {
+        "claim": "An agent without a done-condition is just expensive chat.",
+        "stakes": "You will burn tokens and weekends and still have no artifact.",
+        "proof": "Shipping systems require todos, gates, and proof paths — not vibes.",
+        "mechanism": ["Define the artifact before the prompt", "Attach a done-condition and verifier", "Human-gate only the risk surface"],
+        "turn": "GenCreator trains you to run agents like operators, not tourists.",
+        "cta": "Save this. Run one agent to a real artifact today."
+      },
+      "spokenScript": "Most people do not have agents. They have chat with extra steps. If there is no done-condition, there is no agent — only theater. Define the artifact first: script, PR, clip, board update. Attach a finish line the agent can fail. Verify with proof: file path, test, screenshot, draft. Human-gate money, brand, and publish. Everything else can move. That is how you ship daily without drowning. Save this. One real artifact today.",
+      "wordCount": 89,
+      "hooks": [
+        {"text": "An agent without a done-condition is expensive chat.", "stop": 9, "promise": 9, "specificity": 9, "charge": 9, "winner": true},
+        {"text": "You do not have agents. You have theater.", "stop": 9, "promise": 8, "specificity": 8, "charge": 9, "alt": true},
+        {"text": "No finish line, no agent.", "stop": 8, "promise": 8, "specificity": 8, "charge": 8},
+        {"text": "Stop prompting. Start specifying done.", "stop": 8, "promise": 8, "specificity": 8, "charge": 8},
+        {"text": "Artifacts or it did not happen.", "stop": 8, "promise": 7, "specificity": 8, "charge": 8}
+      ],
+      "formatCode": "TH",
+      "formatNotes": "Talking head hot-take; screen insert of todo with done-condition.",
+      "visualBeats": [
+        {"t": "0-2s", "visual": "Face hard open", "onScreen": "Expensive chat"},
+        {"t": "2-12s", "visual": "Face", "onScreen": "No done-condition"},
+        {"t": "12-28s", "visual": "Screen checklist", "onScreen": "Artifact → Verify → Gate"},
+        {"t": "28-45s", "visual": "Face CTA", "onScreen": "One artifact today"}
+      ],
+      "templateName": "Problem → Mechanism → Proof",
+      "templateFill": "Problem: agent theater. Mechanism: artifact + done + verify + gate. CTA: one artifact.",
+      "record": {
+        "framing": "9:16 tight face",
+        "lighting": "Harder key for punch",
+        "audio": "Clean VO priority",
+        "takes": ["Hook A x3", "Hook B x2", "Body x2", "CTA x2"],
+        "broll": ["Todo with DONE visible", "Proof path in explorer"],
+        "wardrobe": "Dark minimal",
+        "teleprompter": "Short punchy lines",
+        "energyNote": "Direct then practical hope"
+      },
+      "edit": {
+        "primaryStack": "mixed",
+        "steps": ["Descript cleanup", "CapCut captions emphasize done-condition", "Insert screen mid-body", "Export vertical"],
+        "export": "1080x1920 @ 30fps",
+        "mcp": ["create_draft", "add_video", "add_subtitle", "add_text", "save_draft"],
+        "qualityGates": ["Claim clear mute", "Screen readable 2s", "Single CTA"]
+      },
+      "pack": {
+        "coverText": "Done-condition or theater",
+        "captionPrimary": "An agent without a done-condition is expensive chat. Artifact first. Verify. Human-gate risk. GenCreator operator mode.",
+        "captionAlts": ["Artifacts or it did not happen.", "Stop prompting. Start specifying done."],
+        "hashtags": ["#GenCreator", "#AIAgents", "#Ship", "#CreatorOS"],
+        "firstComment": "What artifact are you finishing today?",
+        "tiktok": "Hot-take format",
+        "ig": "Reel + future carousel",
+        "yt": "Title: Agents That Ship vs Agents That Chat",
+        "humanGate": "Human post only"
+      },
+      "tools": [
+        {"id": "hermes-hv", "label": "Hermes /hv skill", "note": "harmonic-virality-shortform", "kind": "hermes"},
+        {"id": "descript", "label": "Descript", "href": "https://www.descript.com/", "note": "A-roll", "kind": "edit"},
+        {"id": "capcut", "label": "CapCut", "href": "https://www.capcut.com/", "note": "Polish", "kind": "edit"}
+      ],
+      "artifacts": [
+        {"name": "script.md", "path": "content/hv/artifacts/agents-that-ship/script.md"},
+        {"name": "pack.md", "path": "content/hv/artifacts/agents-that-ship/pack.md"}
+      ],
+      "score": {"charge": 9, "hookStop": 9, "argument": 9, "emotion": 8, "retention": 9, "stepps": 8, "platform": 9, "cta": 8, "average": 8.62, "recommendation": "SHIP_CANDIDATE"}
+    },
+    {
+      "id": "gc-hv-04",
+      "slug": "harmonic-batch",
+      "title": "Harmonic Virality batch system",
+      "brand": "GenCreator",
+      "form": "short",
+      "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+      "durationSec": 45,
+      "outcome": "authority",
+      "seed": "GenCreator Personal AI CoE for creators — ship systems not vibes",
+      "primaryIdea": "Create-release-repeat with charge ranking beats random posting",
+      "chargeOverall": 8,
+      "stageStatus": {"ideas": "done", "script": "done", "hooks": "done", "format": "done", "template": "done", "actualize": "done", "edit": "done", "post": "done"},
+      "ideas": [
+        {"title": "Stop random posting — run Harmonic Virality", "charge": 8, "clarity": 8, "pain": 8, "share": 8, "proof": 7, "selected": true},
+        {"title": "8 steps from idea charge to pack", "charge": 7, "clarity": 9, "pain": 7, "share": 7, "proof": 7}
+      ],
+      "spine": {
+        "claim": "Virality is not luck — it is charge, argument, hook, and release without attachment.",
+        "stakes": "Random content drains you. Systems let you ship daily and stay human.",
+        "proof": "8-step loop: ideas → script → hooks → format → template → record → edit → pack.",
+        "mechanism": ["Rank ideas by charge not SEO", "Write every post as an argument", "Batch record, Descript+CapCut, human post"],
+        "turn": "When the work is done, forget the metrics. That is why it lasts.",
+        "cta": "Comment HV for the stage map."
+      },
+      "spokenScript": "Stop posting at random. If the idea has no charge, no hook will save it. Here is the loop I run inside GenCreator Studio. One: receive ideas, rank by life force. Two: every post is an argument. Three: five hooks, pick the boxing. Four and five: format plus a proven template. Six: record like you mean it. Seven: cut noise in Descript and CapCut. Eight: pack captions — then release without clinging. Create. Release. Repeat. Comment HV if you want the stage map.",
+      "wordCount": 99,
+      "hooks": [
+        {"text": "Stop posting at random.", "stop": 9, "promise": 8, "specificity": 8, "charge": 8, "winner": true},
+        {"text": "If it has no charge, no hook will save it.", "stop": 8, "promise": 9, "specificity": 8, "charge": 9, "alt": true},
+        {"text": "Virality is a loop, not a lottery.", "stop": 8, "promise": 8, "specificity": 7, "charge": 8},
+        {"text": "Eight stages. Daily ship. Detach.", "stop": 7, "promise": 8, "specificity": 8, "charge": 7},
+        {"text": "Create. Release. Repeat.", "stop": 7, "promise": 7, "specificity": 7, "charge": 8}
+      ],
+      "formatCode": "SF",
+      "formatNotes": "Screen-first: Studio /hv board; PIP face.",
+      "visualBeats": [
+        {"t": "0-2s", "visual": "Face", "onScreen": "Stop random posts"},
+        {"t": "2-15s", "visual": "Screen /hv board", "onScreen": "Charge rank"},
+        {"t": "15-30s", "visual": "Stages 1-8", "onScreen": "8-step loop"},
+        {"t": "30-45s", "visual": "Face CTA", "onScreen": "Comment HV"}
+      ],
+      "templateName": "Build Log",
+      "templateFill": "Shipped multi-post batch in GenCreator Studio; 8 stages.",
+      "record": {
+        "framing": "9:16 screen + face PIP",
+        "lighting": "Face lit for PIP",
+        "audio": "Narrate over screen",
+        "takes": ["Hook x3", "Screen walkthrough", "CTA x2"],
+        "broll": ["Studio /hv UI", "Stage chips", "Post cards"],
+        "wardrobe": "Dark",
+        "teleprompter": "Optional freestyle from board",
+        "energyNote": "Builder pride"
+      },
+      "edit": {
+        "primaryStack": "mixed",
+        "steps": ["Record face + screen", "CapCut nest PIP", "Highlight stage names", "Export vertical"],
+        "export": "1080x1920 @ 30fps",
+        "qualityGates": ["UI readable", "Stages 1-8 appear", "CTA once"]
+      },
+      "pack": {
+        "coverText": "Stop random posting",
+        "captionPrimary": "Harmonic Virality inside GenCreator Studio: charge → argument → hooks → format → template → record → edit → pack. Create. Release. Repeat.",
+        "captionAlts": ["Virality is a loop, not a lottery.", "Comment HV for the stage map."],
+        "hashtags": ["#GenCreator", "#ContentSystem", "#ShortForm", "#CreatorStudio"],
+        "firstComment": "HV = Harmonic Virality 8 stages.",
+        "tiktok": "Screen demo; large text",
+        "ig": "Save as guide",
+        "yt": "Title: Harmonic Virality Batch System (GenCreator Studio)",
+        "humanGate": "Human post only"
+      },
+      "tools": [
+        {"id": "hermes-hv", "label": "Hermes /hv skill", "note": "harmonic-virality-shortform", "kind": "hermes"},
+        {"id": "descript", "label": "Descript", "href": "https://www.descript.com/", "note": "Cleanup", "kind": "edit"},
+        {"id": "capcut", "label": "CapCut", "href": "https://www.capcut.com/", "note": "PIP + captions", "kind": "edit"}
+      ],
+      "artifacts": [
+        {"name": "script.md", "path": "content/hv/artifacts/harmonic-batch/script.md"},
+        {"name": "pack.md", "path": "content/hv/artifacts/harmonic-batch/pack.md"}
+      ],
+      "score": {"charge": 8, "hookStop": 9, "argument": 8, "emotion": 8, "retention": 8, "stepps": 8, "platform": 9, "cta": 8, "average": 8.25, "recommendation": "SHIP_CANDIDATE"}
+    },
+    {
+      "id": "gc-hv-05",
+      "slug": "studio-is-the-palace",
+      "title": "Studio is the palace",
+      "brand": "GenCreator",
+      "form": "short",
+      "platforms": ["TikTok", "Instagram Reels", "YouTube Shorts"],
+      "durationSec": 45,
+      "outcome": "authority",
+      "seed": "GenCreator Personal AI CoE for creators — ship systems not vibes",
+      "primaryIdea": "Author in agents, showcase in Studio, human-gate publish",
+      "chargeOverall": 8,
+      "stageStatus": {"ideas": "done", "script": "done", "hooks": "done", "format": "done", "template": "done", "actualize": "done", "edit": "done", "post": "done"},
+      "ideas": [
+        {"title": "Studio is the palace — agents are the workshop", "charge": 8, "clarity": 8, "pain": 7, "share": 8, "proof": 8, "selected": true},
+        {"title": "Stop losing drafts in chat history", "charge": 8, "clarity": 9, "pain": 9, "share": 8, "proof": 7}
+      ],
+      "spine": {
+        "claim": "Your best work dies in chat history unless you have a studio that stages it.",
+        "stakes": "Without a palace, every session starts from zero and nothing ships.",
+        "proof": "GenCreator Studio holds batch, stages, scripts, record cards, and packs.",
+        "mechanism": ["Author with Hermes / Claude / Cursor", "Land artifacts in Studio stages", "Walk ideation → pack with a human"],
+        "turn": "The agent is the workshop. The studio is the palace you return to.",
+        "cta": "Open /hv and walk one post through all eight stages."
+      },
+      "spokenScript": "Your best drafts are dying in chat history. Agents are workshops. You still need a palace. GenCreator Studio is where the batch lives — ideas ranked by charge, scripts as arguments, hooks scored, record cards ready, edit plans for Descript and CapCut, packs waiting for a human gate. Author anywhere. Stage everything here. Walk one post through all eight steps with me. That is how daily shipping becomes calm.",
+      "wordCount": 91,
+      "hooks": [
+        {"text": "Your best drafts are dying in chat history.", "stop": 9, "promise": 8, "specificity": 8, "charge": 9, "winner": true},
+        {"text": "Agents are workshops. You still need a palace.", "stop": 8, "promise": 9, "specificity": 8, "charge": 8, "alt": true},
+        {"text": "Stop losing the work between sessions.", "stop": 8, "promise": 8, "specificity": 7, "charge": 8},
+        {"text": "Studio stages what chat forgets.", "stop": 7, "promise": 8, "specificity": 8, "charge": 7},
+        {"text": "Author anywhere. Ship from the palace.", "stop": 7, "promise": 8, "specificity": 7, "charge": 7}
+      ],
+      "formatCode": "TH",
+      "formatNotes": "Talking head + cutaways to Studio UI stages.",
+      "visualBeats": [
+        {"t": "0-2s", "visual": "Face", "onScreen": "Drafts die in chat"},
+        {"t": "2-12s", "visual": "Face", "onScreen": "Workshop ≠ palace"},
+        {"t": "12-30s", "visual": "UI tour", "onScreen": "8 stages live here"},
+        {"t": "30-45s", "visual": "Face CTA", "onScreen": "Walk /hv with me"}
+      ],
+      "templateName": "Identity Mirror",
+      "templateFill": "If you build systems, you need a palace not only chats.",
+      "record": {
+        "framing": "9:16",
+        "lighting": "Soft premium void",
+        "audio": "Warm close",
+        "takes": ["Hook A x3", "Hook B x2", "Body x2", "CTA x2"],
+        "broll": ["/hv board", "Stage rail", "Pack view"],
+        "wardrobe": "Dark elevated",
+        "teleprompter": "Slower, intimate",
+        "energyNote": "Invitation energy"
+      },
+      "edit": {
+        "primaryStack": "mixed",
+        "steps": ["Descript VO", "CapCut captions + UI inserts", "End card Open /hv", "Export"],
+        "export": "1080x1920 @ 30fps",
+        "qualityGates": ["Emotional open lands", "UI legible", "Human gate clear"]
+      },
+      "pack": {
+        "coverText": "Stop losing drafts",
+        "captionPrimary": "Agents are workshops. Studio is the palace. GenCreator Studio stages Harmonic Virality end-to-end — then a human ships.",
+        "captionAlts": ["Your best drafts are dying in chat history.", "Author anywhere. Stage in Studio."],
+        "hashtags": ["#GenCreator", "#GenCreatorStudio", "#CreatorOS", "#AIWorkflow"],
+        "firstComment": "Which stage do you usually skip?",
+        "tiktok": "Soft authority; save-worthy",
+        "ig": "Strong for save + share",
+        "yt": "Title: GenCreator Studio — The Palace for AI Creators",
+        "humanGate": "Human post only"
+      },
+      "tools": [
+        {"id": "hermes-hv", "label": "Hermes /hv skill", "note": "harmonic-virality-shortform", "kind": "hermes"},
+        {"id": "descript", "label": "Descript", "href": "https://www.descript.com/", "note": "VO", "kind": "edit"},
+        {"id": "capcut", "label": "CapCut", "href": "https://www.capcut.com/", "note": "UI inserts", "kind": "edit"}
+      ],
+      "artifacts": [
+        {"name": "script.md", "path": "content/hv/artifacts/studio-is-the-palace/script.md"},
+        {"name": "pack.md", "path": "content/hv/artifacts/studio-is-the-palace/pack.md"}
+      ],
+      "score": {"charge": 8, "hookStop": 9, "argument": 8, "emotion": 9, "retention": 8, "stepps": 8, "platform": 9, "cta": 8, "average": 8.38, "recommendation": "SHIP_CANDIDATE"}
+    }
+  ]
+}
