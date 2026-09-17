@@ -1,4 +1,4 @@
-import batch from '@/content/hv/batch-2026-07-16.json'
+import batch from '@/content/hv/batch-2026-08-03.json'
 import type { HvBatch, HvPost, HvStageId } from './types'
 import { HV_STAGES } from './types'
 
