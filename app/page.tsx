@@ -89,7 +89,7 @@ export default function HomePage() {
         />
         <Bullet
           title="Cryptographic attestation"
-          body="Every publication carries a signed record of human idea, agent chain, models, and reviewers. Verify with @cis/verify."
+          body="Every publication carries a signed record of human idea, agent chain, models, and reviewers. The reference verifier, @cis/verify, is on the CIS roadmap."
         />
       </section>
 
@@ -115,15 +115,6 @@ export default function HomePage() {
           </Link>{' '}
           ·{' '}
           <Link
-            href="https://github.com/frankxai/iis"
-            target="_blank"
-            rel="noreferrer"
-            className="text-tech-primary underline-offset-4 hover:underline"
-          >
-            IIS
-          </Link>{' '}
-          ·{' '}
-          <Link
             href="https://github.com/frankxai/library-os"
             target="_blank"
             rel="noreferrer"
@@ -141,7 +132,7 @@ function Card({ step, title, body }: { step: string; title: string; body: string
   return (
     <article className="flex flex-col gap-3 rounded-2xl border border-border bg-space/60 p-6">
       <span className="text-xs uppercase tracking-[0.18em] text-ink-subtle">{step}</span>
-      <h3 className="font-display text-xl font-semibold text-ink">{title}</h3>
+      <h2 className="font-display text-xl font-semibold text-ink">{title}</h2>
       <p className="text-sm text-ink-muted">{body}</p>
     </article>
   )
@@ -150,7 +141,7 @@ function Card({ step, title, body }: { step: string; title: string; body: string
 function Bullet({ title, body }: { title: string; body: string }) {
   return (
     <div className="rounded-lg border border-border bg-space/40 p-4">
-      <h4 className="mb-1 font-semibold text-ink">{title}</h4>
+      <h3 className="mb-1 font-semibold text-ink">{title}</h3>
       <p className="text-sm text-ink-muted">{body}</p>
     </div>
   )

@@ -20,7 +20,7 @@ export default function StudioPage() {
 
       <section className="rounded-2xl border border-dashed border-border bg-space/40 p-8 text-center">
         <p className="text-sm text-ink-muted">
-          The full studio dashboard ships in MV1 (Friday May 9 2026). Track progress in{' '}
+          The studio dashboard is not built yet. This alpha template ships the landing page and this placeholder. Track progress in{' '}
           <Link
             href="https://github.com/frankxai/creator-intelligence-system/blob/main/ROADMAP.md"
             className="text-tech-primary underline-offset-4 hover:underline"
