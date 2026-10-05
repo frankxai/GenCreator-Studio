@@ -1,5 +1,7 @@
 # GenCreator Studio
 
+**Turn one clear idea into work you can review and ship.** That is the GenCreator line, published at [gencreator.ai](https://gencreator.ai). This template is its own surface, built on the Creator Intelligence System.
+
 > **The Vercel template that turns a [Creator Intelligence System (CIS)](https://github.com/frankxai/creator-intelligence-system) instance into a living studio.**
 > One-click deploy. Your palace, your voice, your channels. MIT licensed.
 
