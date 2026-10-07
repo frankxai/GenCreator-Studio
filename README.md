@@ -43,6 +43,8 @@ GenCreator Studio is a Next.js 16 + Tailwind template. It is the reference galle
 
 ## What you get
 
+> **v0.1.0-alpha:** this repo currently ships the landing page and a `/studio` placeholder. The dashboard surfaces, distribution adapters, attestation rendering, and voice audit listed below are planned; nothing in `app/` reads the environment variables yet. Status is tracked in the [CIS roadmap](https://github.com/frankxai/creator-intelligence-system/blob/main/ROADMAP.md).
+
 - **One-click Vercel deploy** with sensible defaults
 - **Studio dashboard** — Gallery, Calendar, Formats, Review, Distribute, Attest, Learn
 - **CIS-typed everywhere** — every artifact conforms to the [CIP v0.1 protocol](https://github.com/frankxai/creator-intelligence-system/blob/main/SPEC.md)
@@ -139,7 +141,7 @@ The studio loads `myVoice` at startup and audits every L4 production output agai
 
 ## Roadmap
 
-- **MV1 (this week):** Capture surface, Bluesky distribution, attestation rendering
+- **MV1 (target Friday May 9 2026):** Capture surface, Bluesky distribution, attestation rendering
 - **MV2 (May):** All 7 dashboard surfaces, 8 distribution channels, format library
 - **MV3 (June):** AgentDB learning loop, Farcaster Frames, MCP server bundled
 - **v1.0 (October):** Tauri desktop wrapper, multi-creator briefs, music as content type
@@ -180,7 +182,7 @@ MIT. See [LICENSE](./LICENSE).
 
 **v0.1.0-alpha** · 2026-05-07
 
-Foundation commit. Working flows land across MV1 (this week). Bookmark and watch for v0.1.0 tag.
+Foundation commit. The landing page and a `/studio` placeholder are in place; working flows are planned across MV1 in the CIS roadmap. Bookmark and watch for the v0.1.0 tag.
 
 ---
 

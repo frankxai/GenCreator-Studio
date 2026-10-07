@@ -2,6 +2,8 @@
 
 > One-click Vercel deploy + walkthrough for distribution channel setup.
 
+> **v0.1.0-alpha:** the deployed app is currently the landing page and a `/studio` placeholder. The channel adapters, `/api/*` routes, `.well-known` attestation endpoint, palace writes, and `@cis/*` packages described below are planned and are not in this repo yet; nothing in `app/` reads these environment variables. Treat the channel setup steps as preparation for later releases.
+
 ---
 
 ## Option 1 — One-click Vercel deploy
