@@ -36,6 +36,29 @@ export default function HomePage() {
         />
       </section>
 
+      <section className="rounded-2xl border border-tech-primary/30 bg-tech-primary/5 p-8">
+        <span className="text-xs uppercase tracking-[0.18em] text-tech-primary">Live now · Harmonic Virality</span>
+        <h2 className="mt-2 font-display text-2xl font-semibold text-ink">/hv multi-post workbench</h2>
+        <p className="mt-2 max-w-2xl text-sm text-ink-muted">
+          Walk ideation → script → hooks → format → template → record → edit → pack for a GenCreator
+          batch. Showcase agent-generated posts, link Descript/CapCut, human-gate publish.
+        </p>
+        <div className="mt-5 flex flex-wrap gap-3">
+          <Link
+            href="/hv"
+            className="rounded-full bg-tech-primary px-4 py-2 text-sm font-semibold text-void hover:bg-tech-secondary"
+          >
+            Open HV workbench →
+          </Link>
+          <Link
+            href="/hv/stop-renting-thinking"
+            className="rounded-full border border-border-strong px-4 py-2 text-sm text-ink hover:border-tech-primary"
+          >
+            First post stages
+          </Link>
+        </div>
+      </section>
+
       <section className="rounded-2xl border border-border bg-space/60 p-8">
         <h2 className="mb-3 font-display text-xl font-semibold text-ink">
           Built on the Creator Intelligence System

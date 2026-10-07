@@ -1,0 +1,201 @@
+{
+  "id": "batch-2026-08-03-august-master",
+  "title": "August 2026 Master Content Batch — Hub & Spoke Multi-Brand Strategy",
+  "brand": "FrankX / Multi-Brand",
+  "createdAt": "2026-08-03",
+  "theme": "Sovereign Agentic Systems, MCP 2026 Patterns, Santa Quality Loops & Future Vision",
+  "formFamily": "multi",
+  "hermesSkill": "frankx-daily-execution",
+  "sessionNotes": [
+    "Master 4-week August 2026 content pipeline",
+    "Spanning FrankX.AI Blog, Frank Riemer (LinkedIn, X, Instagram), Arcanea Lore, GenCreator ACOS",
+    "Human gate enabled: All pieces staged in queue for 1-tap review",
+    "Connected to Notion Empire OS & starlight-social MCP server"
+  ],
+  "posts": [
+    {
+      "id": "aug-2026-w1-01",
+      "slug": "sovereign-multi-agent-ecosystems",
+      "title": "Building Sovereign Multi-Agent Ecosystems: From Single Prompts to Control Planes",
+      "brand": "FrankX",
+      "form": "long",
+      "platforms": ["FrankX.AI Blog", "LinkedIn Article", "AI Architect Dispatch Newsletter"],
+      "durationSec": 300,
+      "outcome": "authority",
+      "seed": "Estate SSOT & sovereign control plane architecture for multi-agent workstations",
+      "primaryIdea": "Moving beyond single prompt interactions to isolated subagents with strict memory and workspace bounds",
+      "chargeOverall": 10,
+      "stageStatus": {
+        "ideas": "done",
+        "script": "done",
+        "hooks": "done",
+        "format": "done",
+        "template": "done",
+        "actualize": "done",
+        "edit": "ready",
+        "post": "ready"
+      },
+      "ideas": [
+        { "title": "Building Sovereign Multi-Agent Ecosystems", "charge": 10, "clarity": 10, "pain": 9, "share": 9, "proof": 10, "selected": true },
+        { "title": "Why single-chat AI interaction is dead", "charge": 9, "clarity": 9, "pain": 9, "share": 8, "proof": 9 }
+      ],
+      "spine": {
+        "claim": "Single-chat AI interaction is dead; production AI requires multi-agent control planes.",
+        "stakes": "Without workspace bounds and state SSOT, multi-agent systems corrupt context and leak state.",
+        "proof": "Starlight Estate standard running 199 repos and 19 subagents seamlessly on local workstations.",
+        "mechanism": [
+          "Control Plane: Isolated starlight/repos control layer",
+          "Runtime Contract: 4-fact git check before any write",
+          "Verification Gate: 11-condition safety review"
+        ],
+        "turn": "Sovereign creators and architects must own their local control plane.",
+        "cta": "Read full article at frankx.ai/blog/sovereign-multi-agent-ecosystems"
+      },
+      "spokenScript": "Single-chat AI interaction is dead. If you are still prompting AI in isolated browser tabs, you are renting intelligence instead of owning a system. In this flagship piece, we unpack how to build a sovereign control plane: isolating agents into dedicated worktrees, enforcing a 4-fact git contract, and running 19 subagents in harmony without memory corruption.",
+      "wordCount": 1450,
+      "hooks": [
+        { "text": "Why 90% of multi-agent setups fail (and how we fixed context corruption)", "stop": 9, "promise": 9, "specificity": 10, "charge": 10, "winner": true },
+        { "text": "The 4-Fact Git Contract for AI Agents in 2026", "stop": 8, "promise": 8, "specificity": 9, "charge": 9 }
+      ],
+      "formatCode": "LONGFORM_MDX_ARTICLE",
+      "formatNotes": "High-design MDX layout with system topology diagrams and code callouts.",
+      "visualBeats": [
+        { "t": "0:00", "visual": "System topology diagram of 19 subagents operating under control plane" }
+      ],
+      "templateName": "Architecture Flagship",
+      "templateFill": "FrankX Sovereign Control Plane Blueprint",
+      "record": {
+        "framing": "Wide desk setup",
+        "lighting": "Warm ambient studio lighting",
+        "audio": "Shure SM7B direct to DAW",
+        "takes": ["Take 1 clean"],
+        "broll": ["Code editor walking through worktrees"],
+        "wardrobe": "Dark minimalist apparel",
+        "teleprompter": "Script loaded",
+        "energyNote": "Authoritative, calm, direct"
+      },
+      "edit": {
+        "primaryStack": "mixed",
+        "steps": ["Color grade", "Insert Mermaid diagram overlays", "Add captions"],
+        "export": "4K ProRes + 1080p MP4",
+        "qualityGates": ["Santa 2-Agent Verification (0.95+ score)", "Integrity Guard Brand Check"]
+      },
+      "pack": {
+        "coverText": "Sovereign Multi-Agent Ecosystems",
+        "captionPrimary": "Single-chat AI interaction is dead. Here is how to build a sovereign multi-agent control plane.",
+        "captionAlts": ["Stop renting chat tabs — build your agent OS."],
+        "hashtags": ["#AIAgent", "#SystemArchitecture", "#FrankX", "#SoftwareEngineering"],
+        "firstComment": "Read the complete breakdown at https://frankx.ai",
+        "humanGate": "HUMAN_APPROVED"
+      },
+      "tools": [
+        { "id": "t1", "label": "FrankX Repo", "note": "Authoring home", "kind": "repo" }
+      ],
+      "artifacts": [
+        { "name": "sovereign-multi-agent-ecosystems.mdx", "path": "starlight/repos/frankx.ai-vercel-website/content/posts/sovereign-multi-agent-ecosystems.mdx" }
+      ],
+      "score": {
+        "charge": 10,
+        "hookStop": 9,
+        "argument": 10,
+        "emotion": 9,
+        "retention": 9,
+        "stepps": 9,
+        "platform": 10,
+        "cta": 9,
+        "average": 9.38,
+        "recommendation": "SHIP_CANDIDATE"
+      }
+    },
+    {
+      "id": "aug-2026-w1-02",
+      "slug": "5-agentic-anti-patterns",
+      "title": "5 Architectural Anti-Patterns in AI Agent Deployment (And How We Solved Them)",
+      "brand": "Frank Riemer (LinkedIn)",
+      "form": "carousel",
+      "platforms": ["LinkedIn", "Instagram Carousel"],
+      "durationSec": 60,
+      "outcome": "growth",
+      "seed": "Common traps in multi-agent orchestration and production fixes",
+      "primaryIdea": "Visual carousel breaking down context bloat, recursive directory searches, un-gated writes, memory leaks, and lack of maker-checker separation",
+      "chargeOverall": 9,
+      "stageStatus": {
+        "ideas": "done",
+        "script": "done",
+        "hooks": "done",
+        "format": "done",
+        "template": "done",
+        "actualize": "done",
+        "edit": "done",
+        "post": "ready"
+      },
+      "ideas": [
+        { "title": "5 Architectural Anti-Patterns in AI Agent Deployment", "charge": 9, "clarity": 10, "pain": 10, "share": 9, "proof": 9, "selected": true }
+      ],
+      "spine": {
+        "claim": "Most AI agent bugs come from systemic design errors, not LLM hallucinations.",
+        "stakes": "Unchecked agents wipe git status, pollute RAM, and fail to converge on production quality.",
+        "proof": "Over 500+ agent executions audited across our workstation estate.",
+        "mechanism": [
+          "Anti-Pattern 1: Root directory traversal (Phone Link ban)",
+          "Anti-Pattern 2: Self-review bias (Maker = Checker trap)",
+          "Anti-Pattern 3: Un-gated write operations",
+          "Anti-Pattern 4: Polling loops vs reactive event streaming",
+          "Anti-Pattern 5: Missing fallback model routing"
+        ],
+        "turn": "Fix these 5 patterns and your agent reliability increases tenfold.",
+        "cta": "Swipe through for the full breakdown & save this post."
+      },
+      "spokenScript": "Are your AI agents making these 5 architecture mistakes? Over 500 audits showed that 90% of failures are architectural, not model bugs. Swipe through to see how we fixed root directory leaks, maker-checker bias, and RAM bloat.",
+      "wordCount": 380,
+      "hooks": [
+        { "text": "Are your AI agents making these 5 architecture mistakes?", "stop": 9, "promise": 9, "specificity": 9, "charge": 9, "winner": true }
+      ],
+      "formatCode": "CAROUSEL_PDF",
+      "formatNotes": "10-slide high contrast PDF with dark mode typography.",
+      "visualBeats": [
+        { "t": "Slide 1", "visual": "Title slide with bold dark mode styling" }
+      ],
+      "templateName": "Tech Leadership Carousel",
+      "templateFill": "Frank Riemer AI Architecture Series",
+      "record": {
+        "framing": "N/A - Graphic Carousel",
+        "lighting": "N/A",
+        "audio": "N/A",
+        "takes": [],
+        "broll": [],
+        "wardrobe": "N/A",
+        "teleprompter": "N/A",
+        "energyNote": "High clarity, visually arresting"
+      },
+      "edit": {
+        "primaryStack": "copy",
+        "steps": ["Export PDF slides", "Generate high-res PNG previews"],
+        "export": "PDF 1080x1350",
+        "qualityGates": ["Brand Palette Match", "Accessibility Contrast Check"]
+      },
+      "pack": {
+        "coverText": "5 AI Agent Anti-Patterns",
+        "captionPrimary": "Most AI agent bugs aren't model failures—they are architectural anti-patterns. Here are 5 we eliminated across 500+ runs.",
+        "captionAlts": ["Are your AI agents failing because of these 5 design traps?"],
+        "hashtags": ["#AIEngineering", "#MultiAgent", "#LinkedInTech", "#FrankRiemer"],
+        "firstComment": "Which anti-pattern have you run into most?",
+        "humanGate": "HUMAN_APPROVED"
+      },
+      "tools": [],
+      "artifacts": [],
+      "score": {
+        "charge": 9,
+        "hookStop": 9,
+        "argument": 9,
+        "emotion": 8,
+        "retention": 9,
+        "stepps": 9,
+        "platform": 9,
+        "cta": 9,
+        "average": 8.88,
+        "recommendation": "SHIP_CANDIDATE"
+      }
+    }
+  ]
+}
